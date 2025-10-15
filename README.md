@@ -32,15 +32,16 @@ The MnistClassifier wrapper class selects a model by name (‘rf’, “nn”, �
     └─ requirements.txt
 
 ## Result
-    | Model           | Accuracy (approx.) |
-    | --------------- | ------------------ |
-    | Random Forest   | ~95%               |
-    | Feed-Forward NN | ~90%               |
-    | CNN             | ~70%               |
+| Model           | Accuracy (approx.) |
+| --------------- | ------------------ |
+| Random Forest   | ~95%               |
+| Feed-Forward NN | ~90%               |
+| CNN             | ~70%               |
 
 ## Tech stack
 - Python 3
 - NumPy
 - Matplotlib
 - scikit-learn
+
 - TensorFlow / Keras
