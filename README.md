@@ -28,26 +28,26 @@ The goal is to:
     Output: True 
 
 ## Project Structure
-task_2/
-│
-├── demo_notebook.ipynb # Dataset exploration and visualization
-│
-├── ner/
-│ ├── train_ner.py # NER model training (transformer-based)
-│ ├── infere_ner.py # NER inference script
-│
-├── image_classification/
-│ ├── train_image.py # CNN model training
-│ ├── infer_image.py # Model inference
-│
-├── pipeline/
-│ └── pipeline.py # Unified text + image pipeline script
-│
-├── requirements.txt
-├── README.md
-└── data/
-  ├── train/ # training images (10 classes)
-  └── test/ # test images (10 classes)
+    task_2/
+        │
+        ├── demo_notebook.ipynb # Dataset exploration and visualization
+        │
+        ├── ner/
+        │ ├── train_ner.py # NER model training (transformer-based)
+        │ ├── infere_ner.py # NER inference script
+        │
+        ├── image_classification/
+        │ ├── train_image.py # CNN model training
+        │ ├── infer_image.py # Model inference
+        │
+        ├── pipeline/
+        │ └── pipeline.py # Unified text + image pipeline script
+        │
+        ├── requirements.txt
+        ├── README.md
+        └── data/
+          ├── train/ # training images (10 classes)
+          └── test/ # test images (10 classes)
 
 ## Dataset
 
@@ -65,4 +65,5 @@ task_2/
 - scikit-learn – preprocessing & metrics
 - Transformers, Datasets, Evaluate, seqeval – NER model and evaluation
 - Matplotlib, Seaborn – visualization
+
 - tqdm, argparse, PyYAML, pathlib, json – utilities
